@@ -1,0 +1,19 @@
+26) #include<stdio.h>  
+27) int main()    
+28) {    
+29) int n,r,sum=0,temp;    
+30) printf("enter the number=");    
+31) scanf("%d",&n);    
+32) temp=n;    
+33) while(n>0)    
+34) {    
+35) r=n%10;    
+36) sum=(sum*10)+r;    
+37) n=n/10;    
+38) }    
+39) if(temp==sum)    
+40) printf("palindrome number ");    
+41) else    
+42) printf("not palindrome");   
+43) return 0;  
+44) }   
